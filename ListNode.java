@@ -1,0 +1,31 @@
+
+public class ListNode {
+    int val;
+    ListNode next;
+    ListNode() {}
+    ListNode(int val) { this.val = val; }
+    ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+}
+
+class Solution {
+    public ListNode deleteMiddle(ListNode head) {
+        if(head == null || head.next == null){
+            return null;
+        }
+        
+        if(head.next.next == null){
+            head.next = null;
+            return head;
+        }
+
+        ListNode oneX = new ListNode(-1);
+        oneX.next = head;
+        ListNode twoX = head;
+        while(twoX != null && twoX.next != null){
+            oneX = oneX.next;
+            twoX = twoX.next.next;
+        }
+        oneX.next = oneX.next.next;
+        return head;
+    }
+}
