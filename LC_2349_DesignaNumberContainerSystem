@@ -1,0 +1,45 @@
+class NumberContainers {
+    Map<Integer, Integer> map;
+    Map<Integer, PriorityQueue<Integer>> revMap;
+
+
+    public NumberContainers() {
+        map = new HashMap<>();
+        revMap = new HashMap<>();
+    }
+    
+    public void change(int index, int number) {
+        map.put(index, number);
+        if(!revMap.containsKey(number)){
+            revMap.put(number, new PriorityQueue<>());
+        }
+        revMap.get(number).offer(index);
+    }
+    
+    public int find(int number) {
+        if(!revMap.containsKey(number)){
+            return -1;
+        }
+        PriorityQueue<Integer> pq = revMap.get(number);
+        while(!pq.isEmpty()){
+            int idx = pq.peek();
+            if(map.get(idx) == number){
+                break;
+            } else {
+                pq.poll();
+            }
+        }
+        if(pq.isEmpty()){
+            revMap.remove(number);
+            return -1;
+        }
+        return revMap.get(number).peek();
+    }
+}
+
+/**
+ * Your NumberContainers object will be instantiated and called as such:
+ * NumberContainers obj = new NumberContainers();
+ * obj.change(index,number);
+ * int param_2 = obj.find(number);
+ */
