@@ -1,0 +1,22 @@
+class Solution {
+    public long countBadPairs(int[] nums) {
+
+        // Here We are calculating good pairs and returning (total pairs - good pairs) = bad pairs //
+
+        long n = nums.length;
+        Map<Integer, Integer> map = new HashMap<>();
+
+        long gp = 0;
+        for(int i = 0; i < n; i++){
+            int key = nums[i]-i;
+            int val = map.getOrDefault(nums[i]-i, 0);
+            gp += val;
+            map.put(key, val + 1);
+        }
+        // System.out.println(map);
+        
+        long ttl = n*(n-1)/2;
+        // System.out.println(ttl+" "+gp);
+        return ttl - gp;
+    }
+}
