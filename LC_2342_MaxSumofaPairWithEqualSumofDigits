@@ -1,0 +1,114 @@
+// Using only Hashtable
+class Solution {
+    public int maximumSum(int[] nums) {
+        int n = nums.length;
+        Map<Integer,List<Integer>> map = new HashMap<>();
+        
+        for(int i = 0; i < n; i++){
+            int digSum = count(nums[i]);
+            if(map.containsKey(digSum)){
+                map.get(digSum).add(nums[i]);
+            } else {
+                List<Integer> list = new ArrayList<>();
+                list.add(nums[i]);
+                map.put(digSum, list);
+            }
+        }
+        // System.out.println(map);
+
+        int maxSum = -1;
+        for(var entry : map.entrySet()){
+            List<Integer> numlist = entry.getValue();
+            int len = numlist.size();
+            if(len >= 2){
+                int large = -1;
+                int largeInd = -1;
+                int seclarge = -1;
+                for(int i = 0; i < len; i++){
+                    if(numlist.get(i) >= large){
+                        large = numlist.get(i);
+                        largeInd = i;
+                    }
+                }
+                numlist.remove(largeInd);
+                for(int i = 0; i < numlist.size(); i++){
+                    if(numlist.get(i) >= seclarge){
+                        seclarge = numlist.get(i);
+                    }
+                }
+                // System.out.println(large+" "+seclarge);
+                maxSum = Math.max(maxSum, large+seclarge);
+            }
+        }
+        return maxSum;
+    }
+
+    public int count(int num){
+        int sum = 0;
+        while(num > 0){
+            sum += num % 10;
+            num /= 10;
+        }
+        // System.out.println(sum);
+        return sum;
+    }
+}
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+// Using HashTable and MaxHeap(PriorityQueue)
+class Solution {
+    public int maximumSum(int[] nums) {
+        int n = nums.length;
+        Map<Integer,PriorityQueue<Integer>> map = new HashMap<>();
+        
+        for(int i = 0; i < n; i++){
+            int digSum = count(nums[i]);
+            if(map.containsKey(digSum)){
+                map.get(digSum).offer(nums[i]);
+            } else {
+                PriorityQueue<Integer> pq = new PriorityQueue<>(Collections.reverseOrder());
+                pq.offer(nums[i]);
+                map.put(digSum, pq);
+            }
+        }
+        // System.out.println(map);
+
+        int maxSum = -1;
+        for(var entry : map.entrySet()){
+            PriorityQueue<Integer> pq = entry.getValue();
+            int len = pq.size();
+            if(len >= 2){
+                int large = -1;
+                int largeInd = -1;
+                int seclarge = -1;
+                large = pq.poll();
+                seclarge = pq.poll();
+                // for(int i = 0; i < len; i++){
+                //     if(numlist.get(i) >= large){
+                //         large = numlist.get(i);
+                //         largeInd = i;
+                //     }
+                // }
+                // numlist.remove(largeInd);
+                // for(int i = 0; i < numlist.size(); i++){
+                //     if(numlist.get(i) >= seclarge){
+                //         seclarge = numlist.get(i);
+                //     }
+                // }
+                // System.out.println(large+" "+seclarge);
+                maxSum = Math.max(maxSum, large+seclarge);
+            }
+        }
+        return maxSum;
+    }
+
+    public int count(int num){
+        int sum = 0;
+        while(num > 0){
+            sum += num % 10;
+            num /= 10;
+        }
+        // System.out.println(sum);
+        return sum;
+    }
+}
