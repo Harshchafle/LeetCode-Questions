@@ -1,0 +1,59 @@
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode() {}
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
+ * }
+ */
+class Solution {
+    class Pair{
+        TreeNode dumb;
+        int lvl;
+        Pair(TreeNode dumb, int lvl){
+            this.dumb = dumb;
+            this.lvl = lvl;
+        }
+    }
+
+    public int getLevel(TreeNode root){
+        if(root == null) return 0;
+        return 1+Math.max(getLevel(root.left), getLevel(root.right));
+    }
+
+    public List<List<Integer>> levelOrder(TreeNode root) {
+        List<List<Integer>> list = new ArrayList<>();
+        int levels = getLevel(root);
+        for(int i = 0; i < levels; i++){
+            list.add(new ArrayList<>());
+        }
+        if(root == null) return list;
+        bfs(root, list);
+        return list;
+    }
+
+    public void bfs(TreeNode root, List<List<Integer>> list){
+        Queue<Pair> que = new LinkedList<>();
+        int prevlvl = 0;
+        que.offer(new Pair(root, 0));
+        while(!que.isEmpty()){
+            Pair rmPair = que.poll();
+            TreeNode removed = rmPair.dumb;
+            int lvl = rmPair.lvl;
+            if(lvl != prevlvl){
+                prevlvl++;
+            }
+            
+            list.get(lvl).add(removed.val);
+            if(removed.left != null) que.offer(new Pair(removed.left, lvl+1));
+            if(removed.right != null) que.offer(new Pair(removed.right, lvl+1));
+        }
+    }
+}
