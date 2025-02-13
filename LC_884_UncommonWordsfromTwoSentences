@@ -1,0 +1,22 @@
+class Solution {
+    public String[] uncommonFromSentences(String s1, String s2) {
+        Map<String, Integer> map = new HashMap<>();
+        String words1[] = s1.split(" ");
+        String words2[] = s2.split(" ");
+        for(String w1 : words1){
+            map.put(w1, map.getOrDefault(w1, 0) + 1);
+        }
+        for(String w2 : words2){
+            map.put(w2, map.getOrDefault(w2, 0) + 1);
+        }
+        //System.out.println(map);
+        List<String> list = new ArrayList<>();
+        for(var e : map.entrySet()){
+            if(e.getValue() == 1){
+                list.add(e.getKey());
+            }
+        }
+        String ans[] = list.toArray(new String[list.size()]);
+        return ans;
+    }
+}
