@@ -1,0 +1,30 @@
+class Solution {
+
+    public boolean part(int i, String sq, int num, int sum){
+        int n = sq.length();
+        // base
+        if(i >= n){
+            return (sum == num);
+        }
+        for(int index = i; index < n; index++){
+            int val = Integer.parseInt(sq.substring(i, index+1));
+            if(part(index+1, sq, num, val+sum )){
+                return true;
+            }
+        }
+        return false;
+    }
+    
+
+    public int punishmentNumber(int n) {
+        int punishment = 0;
+
+        for(int i = 1; i <= n; i++){
+            String sq = Integer.toString(i*i);
+            if(part(0,sq,i,0)){
+                punishment += i*i;
+            }
+        }
+        return punishment;
+    }
+}
