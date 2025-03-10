@@ -1,0 +1,41 @@
+class Solution {
+    public long countOfSubstrings(String word, int k) {
+        return helper(word, k) - helper(word, k+1);
+    }
+
+    public long helper(String word, int k){
+        long valid = 0;
+        int st = 0,end = 0;
+        Map<Character, Integer> map = new HashMap<>();
+        int consonants = 0;
+
+        while(end < word.length()){
+            
+            char newLetter = word.charAt(end);
+            if(isVowel(newLetter)){
+                map.put(newLetter, map.getOrDefault(newLetter, 0) + 1);
+            }
+            else consonants++;
+
+            while(consonants >= k && map.size() == 5){
+                valid += word.length() - end;
+
+                char startLetter = word.charAt(st);
+                if(isVowel(startLetter)){
+                    map.put(startLetter, map.getOrDefault(startLetter, 0) - 1);
+                    if(map.get(startLetter) == 0){
+                        map.remove(startLetter);
+                    }
+                }
+                else consonants--;
+                st++;
+            }
+            end++;
+        }
+        return valid;
+    }
+    
+    public boolean isVowel(char ch){
+        return (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u');
+    }
+}
