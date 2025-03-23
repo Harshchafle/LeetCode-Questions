@@ -1,0 +1,51 @@
+class Solution {
+    public int minOperations(int[] nums) {
+        int n = nums.length;
+        int a = 0,b = 1, c = 2;
+        int op = 0;
+        while(a < (n-2) && nums[a] != 0) a++;
+        b = a+1;
+        c = a+2;
+        while(c < n){
+            flip(nums, a, b, c);
+            op++;
+                while( a < (n - 2) && nums[a] != 0 ){
+                    a++;
+                }
+                            
+            b = a + 1; 
+            c = a + 2;
+            // print(nums);
+            // System.out.println("a:"+a+" b:"+b+" c:"+c);
+
+        }
+        return ans(nums, op);
+    }
+
+    public void flip(int nums[], int a, int b, int c){
+        if(nums[a] == 1) nums[a] = 0;
+        else nums[a] = 1;
+
+        if(nums[b] == 1) nums[b] = 0;
+        else nums[b] = 1;
+
+        if(nums[c] == 1) nums[c] = 0;
+        else nums[c] = 1;
+    }
+
+    public int ans(int nums[], int op){
+        for(int i = 0; i < nums.length; i++){
+            if(nums[i] != 1){
+                return -1;
+            }
+        }
+        return op;
+    }
+
+    public void print(int nums[]){
+        for(int num : nums){
+            System.out.print(num+" ");
+        }
+        System.out.println();
+    }
+}
