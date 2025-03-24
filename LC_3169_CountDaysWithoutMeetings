@@ -1,0 +1,48 @@
+class Solution {
+    public static int countDays(int days, int[][] meetings) {
+        Arrays.sort(meetings, Comparator.comparingInt(a -> a[0]));
+        // for(int i = 0; i < meetings.length; i++){
+        //     System.out.println(Arrays.toString(meetings[i]));
+        // }
+
+        // I am merging meeting interval so that it'll reduce out meeings array
+        List<int[]> list = new ArrayList<>();
+        list.add(new int[]{meetings[0][0], meetings[0][1]});
+
+        for(int i = 1; i < meetings.length; i++){
+           
+            int[] prev = list.get(list.size()-1);
+            int prevto = prev[1];
+            int currfrom = meetings[i][0];
+
+            if(prevto >= currfrom){
+                int currto = meetings[i][1];
+                int prevfrom = prev[0];
+                if(currto < prevto){
+                    currto = prevto;
+                }
+                list.remove(list.size()-1);
+                list.add(new int[]{prevfrom, currto});
+            }
+            else{
+                list.add(new int[]{currfrom, meetings[i][1]});
+            }
+        }
+        // for(int[] m : list){
+        //     System.out.println(Arrays.toString(m));
+        // }
+
+        int ans = 0;
+        int k = 0;
+        int i = 1;
+        while(i <= days ){
+            if(k < list.size() && i == list.get(k)[0]){
+                i = list.get(k++)[1]+1;
+                continue;
+            }
+            else i++;
+            ans++;
+        }
+        return ans;
+    }
+}
