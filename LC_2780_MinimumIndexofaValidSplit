@@ -1,0 +1,40 @@
+class Solution {
+    public int minimumIndex(List<Integer> nums) {
+        
+        int n = nums.size();
+        Map<Integer, Integer> map = new HashMap<>();
+        for(int i = 0; i < n; i++){
+            map.put(nums.get(i), map.getOrDefault(nums.get(i), 0) + 1);
+        }
+
+        int freq2 = 0;
+        int maxNum2 = 0;
+        for(var entry : map.entrySet()){
+            if(entry.getValue() > freq2){
+                freq2 = entry.getValue();
+                maxNum2 = entry.getKey();
+            }
+        }
+        // System.out.println(maxNum+" "+freq2);
+
+        int freq1 = 0;
+        int maxNum1 = nums.get(0);
+        for(int i = 0; i < n; i++){
+            if(nums.get(i) == maxNum2){
+                maxNum1 = maxNum2;
+                freq1++;
+                freq2--;
+            }
+            int len1 = i+1;
+            int len2 = n - i-1;
+            // System.out.println("("+maxNum1+"="+freq1+" l:"+len1+")("+maxNum2+"="+freq2+" l:"+len2+")");
+            if(2*freq1 > len1 && 2*freq2 > len2){
+                return i;
+            }
+        }
+        return -1;
+
+    }
+}
+
+// Tip : Used Moore's majority voting algorithm to find the dominant element. Prefix count and condition to determine split validity helped solve the remaining problem.
