@@ -1,0 +1,19 @@
+class Solution {
+    public long maximumTripletValue(int[] nums) {
+        int n = nums.length;
+        int max1[] = new int[n];
+        int max2[] = new int[n];
+        long ans = 0;
+
+        max1[0] = nums[0];
+        for(int i = 1; i < n; i++){
+            max1[i] = Math.max(max1[i-1], nums[i]);
+            max2[n-i-1] = Math.max(max2[n-i], nums[n-i]);
+        }
+
+        for(int i = 1; i < n-1; i++){
+                ans = Math.max(ans, (long)(max1[i] - nums[i])*max2[i]);
+        }
+        return (ans > 0)? ans : 0;
+    }
+}
