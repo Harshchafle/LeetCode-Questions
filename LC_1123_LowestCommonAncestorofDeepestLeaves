@@ -1,0 +1,21 @@
+// Same Editorial Answer
+class Solution {
+    public TreeNode lcaDeepestLeaves(TreeNode root) {
+        return dfs(root).getKey();
+    }
+
+    public Pair<TreeNode, Integer>dfs(TreeNode root){
+        if(root == null) return new Pair<>(null, 0);
+
+        Pair<TreeNode, Integer> leftChild = dfs(root.left);
+        Pair<TreeNode, Integer> rightChild = dfs(root.right);
+
+        if(leftChild.getValue() > rightChild.getValue()) 
+            return new Pair<>(leftChild.getKey(), leftChild.getValue() + 1);
+
+        if(rightChild.getValue() > leftChild.getValue()) 
+            return new Pair<>(rightChild.getKey(), rightChild.getValue() + 1);
+
+        return new Pair<>(root, leftChild.getValue() + 1);
+    }
+}
