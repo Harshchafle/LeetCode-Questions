@@ -1,0 +1,15 @@
+class Solution {
+    public int subsetXORSum(int[] nums) {
+        // int dp[] = new int[nums.length];
+        return helper(0, nums, 0);
+    }
+
+    public int helper(int i, int[] nums, int ans){
+        if(i >= nums.length) return ans ;
+        // System.out.println(ans);
+        int skip = helper(i+1, nums, ans);
+        int pick = helper(i+1, nums, ans^nums[i]);
+        // System.out.println(skip+" "+pick);
+        return pick + skip;
+    }
+}
