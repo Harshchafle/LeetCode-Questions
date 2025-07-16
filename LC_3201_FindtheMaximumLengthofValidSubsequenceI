@@ -1,0 +1,26 @@
+class Solution {
+    public int maximumLength(int[] nums) {
+        int n = nums.length;
+        int len = 2;
+        if(n == 2){
+            return len;
+        }
+        int even = 0;
+        int odd = 0;
+        int alt = 1;
+        int prev = nums[0];
+        for(int i = 0; i < n; i++){
+            if(i > 0){
+                if((prev & 1) != (nums[i] & 1)) alt++;
+            }
+            prev = nums[i];
+            if((nums[i] & 1) == 0){
+                even++;
+            }
+            else odd++;
+
+        }
+        // System.out.println(even+" "+odd+" "+alt);
+        return Math.max(even, Math.max(odd, alt));
+    }
+}
