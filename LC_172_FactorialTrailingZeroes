@@ -1,0 +1,21 @@
+class Solution {
+    public int trailingZeroes(int n) {
+        int five = 5;
+        int zeroes = 0;
+        while(five <= n){
+            zeroes += Math.floor(n/five);
+            five *= 5;
+        }
+        return zeroes;
+    }
+}
+/**
+As factorials grow incredibly fast, writing out the full numbers for 21! and beyond becomes impractical (20! already has 19 digits!). Instead, we'll focus on calculating the number of trailing zeros using Legendre's Formula.
+
+Legendre's Formula Recap
+The number of trailing zeros in n! is given by:
+
+Z(n!)=⌊n/5⌋+⌊n/25⌋+⌊n/125⌋+…
+
+We sum the integer parts of n divided by powers of 5 until the divisor exceeds n. 
+*/
