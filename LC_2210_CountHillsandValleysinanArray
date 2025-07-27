@@ -1,0 +1,27 @@
+class Solution {
+    public int countHillValley(int[] nums) {
+        int n = nums.length;
+        int hills = 0;
+        int valleys = 0;
+        for(int i = 1; i < n-1; i++){
+            int back = nums[i];
+            int curr = nums[i];
+            int front = nums[i];
+            int j = i;
+            while(j >= 0 && back == curr){
+                back = nums[j];
+                j--;
+            }
+            j = i;
+            while(j < n && front == curr){
+                front = nums[j];
+                j++;
+            }
+            while(i < n-1 && nums[i] == nums[i+1])i++;
+            if(back < curr && curr > front) hills++;
+            if(back > curr && curr < front) valleys++;
+            // System.out.println(back+" "+curr+" "+front+" ("+hills+","+valleys+")");
+        }
+        return hills+valleys;
+    }
+}
