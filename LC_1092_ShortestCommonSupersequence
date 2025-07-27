@@ -1,0 +1,60 @@
+class Solution {
+    public String shortestCommonSupersequence(String str1, String str2) {
+        int l1 = str1.length();
+        int l2 = str2.length();
+        int [][]dp = new int[l1+1][l2+1];
+        
+        for(int i = 1; i <= l1; i++){
+            for(int j = 1; j <= l2; j++){
+                if(str1.charAt(i-1) == str2.charAt(j-1)){
+                    dp[i][j] = 1 + dp[i-1][j-1];
+                }
+                else dp[i][j] = Math.max(dp[i-1][j], dp[i][j-1]);
+            }
+        }
+        // for(int i = 1; i <= l1; i++){
+        //     System.out.println(Arrays.toString(dp[i]));
+        // }
+
+        StringBuilder lcs = new StringBuilder("");
+        int i = l1, j = l2;
+        while(i > 0 && j > 0){
+            if(str1.charAt(i-1) == str2.charAt(j-1)) {
+                lcs.append(str1.charAt(i-1));
+                i--;j--;
+                continue;
+            }
+            if(dp[i-1][j] > dp[i][j-1]) i--;
+            else j--; 
+        }
+        lcs.reverse();
+        // System.out.println(lcs);
+
+        // if(str1.equals(str2)) lcs = new StringBuilder(str1);
+
+        i = 0; j = 0;
+        int k = 0;
+        StringBuilder scs = new StringBuilder("");
+        while(i < l1 && j < l2 && k < lcs.length()){
+            while(i < l1 && str1.charAt(i) != lcs.charAt(k)){
+                scs.append(str1.charAt(i));
+                i++;
+            }
+            while(j < l2 && str2.charAt(j) != lcs.charAt(k)){
+                scs.append(str2.charAt(j));
+                j++;
+            }
+            scs.append(lcs.charAt(k));
+            i++; j++; k++;
+        }
+        while(j < l2){
+            scs.append(str2.charAt(j));
+            j++;
+        }
+        while(i < l1){
+            scs.append(str1.charAt(i));
+            i++;
+        }
+        return scs.toString();
+    }
+}
