@@ -1,0 +1,23 @@
+-------------------------> This solution best explains how to calculate the number of subsets of an array with backtracking
+class Solution {
+    int maxOr = 0;
+    int count = 0;
+    public int countMaxOrSubsets(int[] nums) {
+        
+        int n = nums.length;
+        for(int i = 0; i < n; i++){
+            maxOr |= nums[i];
+        }
+        helper(0, nums, 0);
+        return count;
+    }
+
+    public void helper(int i, int nums[], int currOr){
+        if(i >= nums.length){
+            if(currOr == maxOr) count++;
+            return;
+        }
+        helper(i+1, nums, currOr | nums[i]);
+        helper(i+1, nums, currOr);
+    }
+}
