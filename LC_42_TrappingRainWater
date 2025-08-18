@@ -1,0 +1,28 @@
+class Solution {
+    public int trap(int[] height) {
+        int n = height.length;
+        int front[] = new int[n];
+        int back[] = new int[n];
+
+        front[0] = -1;
+        for(int i = 1; i < n; i++){
+            front[i] = Math.max(height[i-1], front[i-1]);
+        }
+
+        back[n-1] = -1;
+        for(int i = n-2; i >= 0; i--){
+            back[i] = Math.max(height[i+1], back[i+1]);
+        }
+
+        int water = 0;
+        for(int i = 1; i < n-1; i++){
+            int left = front[i];
+            int right = back[i];
+            if(height[i] >= Math.min(left, right)){
+                continue;
+            }
+            water += Math.min(left, right) - height[i];
+        }
+        return water;
+    }
+}
