@@ -1,0 +1,51 @@
+class Solution {
+    public int longestSubarray(int[] nums) {
+        int n = nums.length;
+        int maxCount = 0;
+        int zeroes = 0;
+        for(int i = 0; i < n; i++){
+            if(nums[i] == 0){
+                zeroes++;
+                int leftcount = 0;
+                int rightcount = 0;
+
+                int temp = i-1;
+                while(temp >= 0 && nums[temp] == 1){
+                    leftcount++;
+                    temp--;
+                } 
+                temp = i+1;
+                while(temp < n && nums[temp] == 1){
+                    rightcount++;
+                    temp++;
+                } 
+
+                maxCount = Math.max(maxCount, leftcount+rightcount);
+            }
+        }
+        // System.out.println(maxCount);
+
+        return (maxCount == 0)? ((zeroes == n)? 0 : n-1) : maxCount;
+    }
+}
+--------------------------------------------------------------------------------------------------
+class Solution {
+    public int longestSubarray(int[] nums) {
+        int n = nums.length;
+        int maxCount = 0;
+        int zeroes = 0;
+        
+        int st = 0;
+        for(int i = 0; i < n; i++){
+            zeroes += (nums[i] == 0)? 1 : 0;
+
+            while(zeroes > 1){
+                zeroes -= (nums[st] == 0)? 1 : 0;
+                st++;
+            }
+            maxCount = Math.max(maxCount, i-st);
+        }
+
+        return maxCount;
+    }
+}
