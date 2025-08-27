@@ -1,0 +1,23 @@
+class Solution {
+    public String baseNeg2(int n) {
+        
+        StringBuilder str = new StringBuilder();;
+        while(n != 0){
+            int rem = n % -2;
+            int quo = n / -2;
+
+            if(rem < 0){
+                rem += 2;
+                quo += 1;
+            }
+            if(rem == 1){
+                str.append('1');
+            }
+            if(rem == 0){
+                str.append('0');
+            }
+            n = quo;
+        }
+        return (str.reverse().toString().equals(""))? "0" : str.toString();
+    }
+}
