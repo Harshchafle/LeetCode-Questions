@@ -1,0 +1,41 @@
+class Solution {
+    public int maximalRectangle(char[][] mat) {
+        int rows = mat.length;
+        int cols = mat[0].length;
+        int heights[] = new int[cols];
+        int area = 0;
+
+        for(int i = 0; i < rows; i++){
+            for(int j = 0; j < cols; j++){
+                if(mat[i][j] == '0') heights[j] = 0;
+                else heights[j]++;
+            }
+            // for each histogram heights let's calculate largest area
+            int[] left = new int[cols];
+            int[] right = new int[cols];
+            Deque<Integer> deq = new ArrayDeque<>();
+
+            // filling left
+            for(int k = 0; k < cols; k++){
+                while(!deq.isEmpty() && heights[deq.peek()] >= heights[k]) deq.pop();
+                left[k] = deq.isEmpty()? -1 : deq.peek();
+                deq.push(k);
+            }
+            deq.clear();
+             // filling right
+            for(int k = cols-1; k >= 0; k--){
+                while(!deq.isEmpty() && heights[deq.peek()] >= heights[k]) deq.pop();
+                right[k] = deq.isEmpty()? cols : deq.peek();
+                deq.push(k);
+            }
+            // System.out.print(Arrays.toString(heights)+" "+Arrays.toString(left)+" "+Arrays.toString(right)+"> ");
+            
+            for(int k = 0; k < cols; k++){
+                area = Math.max(area, heights[k]*(right[k]-left[k]-1));
+                // System.out.print(heights[k]*(right[k]-left[k]-1)+" ");
+            }
+            // System.out.println("= "+area);
+        }
+        return area;
+    }
+}
