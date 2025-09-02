@@ -1,0 +1,44 @@
+import java.math.RoundingMode;
+import java.math.BigDecimal;
+
+class Solution {
+    public double maxAverageRatio(int[][] classes, int extraStudents) {
+        int n = classes.length;
+
+        PriorityQueue<int []> pq = new PriorityQueue<>((a,b) -> {
+            double gainA = (double)(a[0] + 1) / (a[1] + 1) - (double)a[0] / a[1];
+            double gainB = (double)(b[0] + 1) / (b[1] + 1) - (double)b[0] / b[1];
+
+            // For a max-heap, we sort in descending order of gain
+            if (gainB > gainA) return 1;
+            if (gainB < gainA) return -1;
+            return 0;
+        });
+
+        for(int i = 0; i < n; i++){
+            pq.offer(classes[i]);
+        }        
+        while (extraStudents > 0) {
+            int[] bestClass = pq.poll();
+            bestClass[0]++; // Pass student count
+            bestClass[1]++; // Total student count
+            pq.offer(bestClass);
+            extraStudents--;
+        }
+
+        double passRatioSum = 0;
+        while(!pq.isEmpty()){
+            int removed[] = pq.poll();
+            int passStu = removed[0];
+            int ttlStu = removed[1];
+            passRatioSum += (double)passStu / ttlStu;
+        }
+        return getDecimalFive(passRatioSum / n);
+    }
+
+    public double getDecimalFive(double num){
+        BigDecimal bd = new BigDecimal(Double.toString(num));
+        bd = bd.setScale(5, RoundingMode.HALF_UP);
+        return bd.doubleValue();
+    }
+}
