@@ -1,0 +1,22 @@
+class Solution {
+    public int numberOfPairs(int[][] points) {
+        Arrays.sort(points, (a,b) -> (a[0] == b[0])? b[1] - a[1] : a[0] - b[0]);
+        int n = points.length;
+        // for(int i = 0; i < n; i++){
+        //     System.out.println(Arrays.toString(points[i]));
+        // }
+        int count = 0;
+        for(int i = 0; i < n; i++){
+            int peak = points[i][1];             // to ensure upper left corner
+            int btm = Integer.MIN_VALUE;         // to block points inside fence
+            for(int j = i+1; j < n; j++){
+                if(peak >= points[j][1] && btm < points[j][1]){
+                    count++;
+                    btm = points[j][1];
+                }
+                if(peak == btm) break;
+            }
+        }
+        return count;
+    }
+}
