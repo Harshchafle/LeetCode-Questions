@@ -1,0 +1,15 @@
+class Solution {
+    public int maxFreqSum(String s) {
+        int freq[] = new int[26];
+        int maxV = 0;
+        int maxC = 0;
+        for(int i = 0; i < s.length(); i++){
+            char ch = s.charAt(i);
+            boolean isVowel = (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u')? true : false;
+            freq[ch-'a']++;
+            if(isVowel && freq[ch-'a'] > maxV) maxV = freq[ch-'a'];
+            if(!isVowel && freq[ch-'a'] > maxC) maxC = freq[ch-'a'];
+        }
+        return maxV + maxC;
+    }
+}
