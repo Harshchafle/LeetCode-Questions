@@ -1,0 +1,41 @@
+class Solution {
+    public String fractionToDecimal(int num, int den) {
+        if(num == 0) return "0";
+        if(den == 1) return String.valueOf(num);
+
+        StringBuilder str = new StringBuilder();
+        
+        // Sign
+        if(num < 0 ^ den < 0) str.append('-');
+
+        long n = Math.abs((long)num);
+        long d = Math.abs((long)den);
+
+        long intpart = n / d;
+        str.append(intpart);
+
+        long rem = n % d;
+        if(rem == 0) return str.toString();
+
+        str.append(".");
+
+        Map<Long, Integer> map = new HashMap<>();
+
+        while(rem != 0){
+            if(map.containsKey(rem)){
+                int idx = map.get(rem);
+                str.insert(idx, "(");
+                str.append(")");
+                return str.toString();
+            }
+
+            map.put(rem, str.length());
+
+            rem *= 10;
+            str.append(rem/d);
+            rem %= d;
+        }
+
+        return str.toString();
+    }
+}
