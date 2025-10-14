@@ -1,0 +1,20 @@
+class Solution {
+    public String getHint(String secret, String guess) {
+        int x = 0;
+        int y = 0;
+        int nums[] = new int[10]; //-> 0-9
+        for(int i = 0; i < secret.length(); i++){
+            int s = secret.charAt(i)-'0';
+            int g = guess.charAt(i)-'0';
+
+            if(s == g) x++;
+            else {
+                if(nums[s] < 0) y++;
+                if(nums[g] > 0) y++;
+                nums[s]++;
+                nums[g]--;
+            }
+        }
+        return x+"A"+y+"B";
+    }
+}
