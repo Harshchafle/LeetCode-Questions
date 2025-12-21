@@ -1,0 +1,28 @@
+class Solution {
+    public int minDeletionSize(String[] strs) {
+        int n = strs.length;
+        int maxLen = strs[0].length();
+        int deletions = 0;
+        boolean sorted[] = new boolean[n];
+        for(int i = 0; i < maxLen; i++){
+            boolean flag = false;
+            for(int j = 0; j < n-1; j++){
+                // System.out.print(flag+" "+strs[j].charAt(i)+" ");
+                if(!sorted[j] && strs[j].charAt(i) > strs[j+1].charAt(i)){
+                    flag = true;
+                    break;
+                }
+            }
+            if(flag){
+                deletions++;
+                continue;
+            }
+            for(int j = 0; j < n-1; j++){
+                if(!sorted[j] && strs[j].charAt(i) < strs[j+1].charAt(i)){
+                    sorted[j] = true;
+                }
+            }
+        }
+        return deletions;
+    }
+}
