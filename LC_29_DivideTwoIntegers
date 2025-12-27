@@ -1,0 +1,23 @@
+class Solution {
+    public int divide(int div, int dr) {
+        if(div == dr) return 1;
+        if(div == Integer.MIN_VALUE && dr == -1) return Integer.MAX_VALUE;
+        if(dr == 1) return div;
+        if(div == -1) return -div;
+        int q = 0;
+        boolean sign = ((div < 0) ^ (dr < 0));
+        long a = Math.abs((long)div);
+        long b = Math.abs((long)dr);
+        int ans = 0;
+        while(a >= b){
+            int temp = 0;
+            while(a >= b<<temp) temp++;
+            temp--;
+            a -= b<<temp;
+            ans += 1<<temp;
+        }
+        if(ans>=Math.pow(2,31) && sign) return Integer.MAX_VALUE;
+        if(ans>=Math.pow(2,31) && !sign) return Integer.MIN_VALUE;
+        return sign? -ans : ans;
+    }
+}
