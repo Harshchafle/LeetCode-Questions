@@ -1,0 +1,84 @@
+class Solution {
+    // check for rows
+    public static int rowSum(int[][] grid, int r, int c){
+        // if every row has equal sum then return sum else return -1
+        // if grid contains values other than [1,9] return -1
+        boolean visited[] = new boolean[10];  // to check element is repeating or not
+        int sum = 0;
+        for(int i=0; i<3; i++){
+            int rowSum = 0;
+            for(int j=0; j<3; j++){
+                int val = grid[r+i][c+j];
+                if(val == 0 || val>=10 || visited[val]){
+                    return -1;
+                }
+                visited[val] = true;
+                rowSum += val;
+            }
+            if(i == 0){
+                sum = rowSum;
+            }else{
+                if(sum != rowSum){
+                    return -1;
+                }
+            }
+        }
+        return sum;
+    }
+
+    // check for cols
+    public static int colSum(int[][] grid, int r, int c){
+        int sum = 0;
+        for(int j=0; j<3; j++){
+            int colSum = 0;
+            for(int i=0; i<3; i++){
+                int val = grid[r+i][c+j];
+                colSum += val;
+            }
+            if(j == 0){
+                sum = colSum;
+            } else{
+                if(sum != colSum){
+                    return -1;
+                }
+            }
+        }
+        return sum;
+    }
+
+    // check for diagonals
+    public static int diagonalSum(int[][] grid, int r, int c){
+        int d1 = grid[r][c] + grid[r+1][c+1] + grid[r+2][c+2];
+        int d2 = grid[r][c+2] + grid[r+1][c+1] + grid[r+2][c];
+        if(d1 != d2){
+            return -1;
+        }
+        return d1;
+    }
+
+    // isMagicSquare
+    public static boolean isMagicSquare(int[][] grid, int r, int c){
+        int rowSum = rowSum(grid, r, c);
+        int colSum = colSum(grid, r, c);
+        int diagSum = diagonalSum(grid, r, c);
+        // System.out.println(rowSum+" "+colSum+" "+diagSum);
+        if(rowSum == colSum && rowSum == diagSum && rowSum != -1){
+            return true;
+        } else{
+            return false;
+        }
+    }
+
+    public int numMagicSquaresInside(int[][] grid) {
+        int count = 0;
+        for(int i=0; i<grid.length-2; i++){
+            for(int j=0; j<grid[0].length-2; j++){
+                if(isMagicSquare(grid, i, j)){
+                    count++;
+                }
+            }
+        }
+        // System.out.println(count);
+        return count;
+    }
+}
