@@ -1,0 +1,27 @@
+class Solution {
+    public int sumFourDivisors(int[] nums) {
+        int n = nums.length;
+        int ttl = 0;
+        for(int num : nums){
+            int sum = 0, count = 0;
+            for( int i = 1; i*i <= num; i++){
+                if(num%i == 0){
+                    int p = i;
+                    int q = num / i;
+
+                    count++;
+                    sum += p;
+
+                    if(p != q){
+                        count++;
+                        sum += q;
+                    }
+
+                    if(count > 4) break;
+                }
+            }
+            if(count == 4) ttl += sum;
+        }
+        return ttl;
+    }
+}
