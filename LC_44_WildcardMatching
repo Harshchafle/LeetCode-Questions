@@ -1,0 +1,36 @@
+class Solution {
+    public boolean isMatch(String s, String p) {
+        int n = s.length();
+        int m = p.length();
+
+        int sptr = 0;
+        int pptr = 0;
+        int strIdx = -1;
+        int matchIdx = 0;
+
+        while(sptr < n){
+            if(pptr < m && (s.charAt(sptr) == p.charAt(pptr) || p.charAt(pptr) == '?')){
+                sptr++;
+                pptr++;
+            }
+            else if(pptr < m && p.charAt(pptr) == '*'){
+                strIdx = pptr;
+                matchIdx = sptr;
+                pptr++;
+            }
+            else if(strIdx != -1){
+                pptr = strIdx + 1;
+                matchIdx++;
+                sptr = matchIdx;    // Backtracking
+            }
+            else {
+                return false;
+            }
+        }
+        while(pptr < m && p.charAt(pptr) == '*'){
+            pptr++;
+        }
+        return pptr == m;
+    }
+
+}
