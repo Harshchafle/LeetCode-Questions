@@ -1,0 +1,16 @@
+  class Solution {
+    public int minTimeToVisitAllPoints(int[][] points) {
+        int n = points.length;
+
+        
+        int time = 0;
+
+        for(int i = 1; i < n; i++){
+            int xtime = Math.abs(points[i][0] - points[i-1][0]);
+            int ytime = Math.abs(points[i][1] - points[i-1][1]);
+            time += Math.max(xtime, ytime);
+        }
+        // System.out.println(3+4+9+5+13+89);
+        return time;
+    }
+}
