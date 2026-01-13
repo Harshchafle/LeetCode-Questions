@@ -1,0 +1,47 @@
+class Solution {
+    public double separateSquares(int[][] sq) {
+        double ttlArea = 0;
+        int n = sq.length;
+        double maxY = Integer.MIN_VALUE;
+
+        for(int i = 0; i < n; i++){
+            ttlArea += (double)sq[i][2]*sq[i][2];
+            maxY = Math.max(maxY, (double)sq[i][1]+sq[i][2]);
+        }
+
+        double st = 0;
+        double end = maxY;
+        double eps = 1e-5;
+
+        double mid = 0;
+        while(Math.abs(end-st) > eps){
+            mid = (st + end)/2;
+
+            // System.out.println(mid);
+            // System.out.println(st+" "+end+"\n");
+            if(getlowerarea(sq, mid, ttlArea)){
+                end = mid;
+            }
+            else st = mid;
+        }
+
+        // area above line = area below line = ttlArea / 2;
+        // System.out.println(minY+" "+maxY);
+
+
+        return end;
+    }
+
+    public Boolean getlowerarea(int[][] sq,double limY, double ttlArea){
+        double larea = 0;
+
+        for(int []s : sq){
+            int y = s[1];
+            int l = s[2];
+            if(y < limY){
+                larea += (double)l * Math.min(limY-y, (double)l);
+            }
+        }
+        return larea >= ttlArea / 2;
+    }
+}
