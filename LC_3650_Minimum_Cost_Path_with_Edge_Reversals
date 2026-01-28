@@ -1,0 +1,52 @@
+class Solution {
+    public int minCost(int n, int[][] edges) {
+        List<List<int[]>> edg = new ArrayList<>();    // ui -> ([vi, wi], ... )
+        for(int i = 0; i < n; i++) edg.add(new ArrayList<>());
+
+        for(int i = 0; i < edges.length; i++){
+            edg.get(edges[i][0]).add(new int[]{edges[i][1], edges[i][2]});
+            edg.get(edges[i][1]).add(new int[]{edges[i][0], 2*edges[i][2]});
+        }
+
+        // for (int i = 0; i < edg.size(); i++) {
+        //     System.out.println("Node " + i + ":");
+        //     for (int[] arr : edg.get(i)) {
+        //         System.out.println(Arrays.toString(arr));
+        //     }
+        // }
+
+        return dijkstra(n, edg);
+    }
+
+    private int dijkstra(int n, List<List<int[]>> edges){
+        int dist[] = new int[n];
+        Arrays.fill(dist, Integer.MAX_VALUE);
+        dist[0] = 0;
+
+        PriorityQueue<int[]> pq = new PriorityQueue<>(
+            (a,b) -> a[1] - b[1]   // ascending wt (node, wt)
+        );
+        pq.offer(new int[]{0,0});    // [vi, wi]
+
+        while(!pq.isEmpty()){
+            int[] removed = pq.poll();
+            int node = removed[0];
+            int cost = removed[1];
+
+            if(node == n-1) return dist[node];
+            
+            // System.out.println(Arrays.toString(dist));
+            for(int edge[] : edges.get(node)){
+                int next = edge[0];
+                int wt = edge[1];
+
+                if(dist[next] > cost + wt){
+                    dist[next] = cost + wt;
+                    pq.offer(new int[]{next, dist[next]});
+                }
+            }
+        }
+        
+        return -1;
+    }
+}
