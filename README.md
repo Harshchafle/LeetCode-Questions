@@ -33,6 +33,7 @@ https://codeforces.com/blog/entry/45223
 | ------- |
 | [1306-jump-game-iii](https://github.com/Harshchafle/LeetCode-Questions/tree/master/1306-jump-game-iii) |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/Harshchafle/LeetCode-Questions/tree/master/2144-minimum-cost-of-buying-candies-with-discount) |
+| [2574-left-and-right-sum-differences](https://github.com/Harshchafle/LeetCode-Questions/tree/master/2574-left-and-right-sum-differences) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -49,4 +50,8 @@ https://codeforces.com/blog/entry/45223
 |  |
 | ------- |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/Harshchafle/LeetCode-Questions/tree/master/2144-minimum-cost-of-buying-candies-with-discount) |
+## Prefix Sum
+|  |
+| ------- |
+| [2574-left-and-right-sum-differences](https://github.com/Harshchafle/LeetCode-Questions/tree/master/2574-left-and-right-sum-differences) |
 <!---LeetCode Topics End-->
