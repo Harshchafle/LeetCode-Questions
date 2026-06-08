@@ -33,6 +33,7 @@ https://codeforces.com/blog/entry/45223
 | ------- |
 | [1306-jump-game-iii](https://github.com/Harshchafle/LeetCode-Questions/tree/master/1306-jump-game-iii) |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/Harshchafle/LeetCode-Questions/tree/master/2144-minimum-cost-of-buying-candies-with-discount) |
+| [2161-partition-array-according-to-given-pivot](https://github.com/Harshchafle/LeetCode-Questions/tree/master/2161-partition-array-according-to-given-pivot) |
 | [2574-left-and-right-sum-differences](https://github.com/Harshchafle/LeetCode-Questions/tree/master/2574-left-and-right-sum-differences) |
 ## Depth-First Search
 |  |
@@ -66,4 +67,12 @@ https://codeforces.com/blog/entry/45223
 |  |
 | ------- |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3751-total-waviness-of-numbers-in-range-i) |
+## Two Pointers
+|  |
+| ------- |
+| [2161-partition-array-according-to-given-pivot](https://github.com/Harshchafle/LeetCode-Questions/tree/master/2161-partition-array-according-to-given-pivot) |
+## Simulation
+|  |
+| ------- |
+| [2161-partition-array-according-to-given-pivot](https://github.com/Harshchafle/LeetCode-Questions/tree/master/2161-partition-array-according-to-given-pivot) |
 <!---LeetCode Topics End-->
