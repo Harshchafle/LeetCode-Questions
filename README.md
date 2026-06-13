@@ -35,6 +35,7 @@ https://codeforces.com/blog/entry/45223
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/Harshchafle/LeetCode-Questions/tree/master/2144-minimum-cost-of-buying-candies-with-discount) |
 | [2161-partition-array-according-to-given-pivot](https://github.com/Harshchafle/LeetCode-Questions/tree/master/2161-partition-array-according-to-given-pivot) |
 | [2574-left-and-right-sum-differences](https://github.com/Harshchafle/LeetCode-Questions/tree/master/2574-left-and-right-sum-differences) |
+| [3838-weighted-word-mapping](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3838-weighted-word-mapping) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -75,4 +76,9 @@ https://codeforces.com/blog/entry/45223
 |  |
 | ------- |
 | [2161-partition-array-according-to-given-pivot](https://github.com/Harshchafle/LeetCode-Questions/tree/master/2161-partition-array-according-to-given-pivot) |
+| [3838-weighted-word-mapping](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3838-weighted-word-mapping) |
+## String
+|  |
+| ------- |
+| [3838-weighted-word-mapping](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3838-weighted-word-mapping) |
 <!---LeetCode Topics End-->
