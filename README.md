@@ -38,6 +38,7 @@ https://codeforces.com/blog/entry/45223
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/Harshchafle/LeetCode-Questions/tree/master/2144-minimum-cost-of-buying-candies-with-discount) |
 | [2161-partition-array-according-to-given-pivot](https://github.com/Harshchafle/LeetCode-Questions/tree/master/2161-partition-array-according-to-given-pivot) |
 | [2574-left-and-right-sum-differences](https://github.com/Harshchafle/LeetCode-Questions/tree/master/2574-left-and-right-sum-differences) |
+| [3532-path-existence-queries-in-a-graph-i](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3532-path-existence-queries-in-a-graph-i) |
 | [3838-weighted-word-mapping](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3838-weighted-word-mapping) |
 ## Depth-First Search
 |  |
@@ -105,6 +106,7 @@ https://codeforces.com/blog/entry/45223
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0128-longest-consecutive-sequence) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Harshchafle/LeetCode-Questions/tree/master/1358-number-of-substrings-containing-all-three-characters) |
+| [3532-path-existence-queries-in-a-graph-i](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3532-path-existence-queries-in-a-graph-i) |
 ## Sliding Window
 |  |
 | ------- |
@@ -113,4 +115,13 @@ https://codeforces.com/blog/entry/45223
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0128-longest-consecutive-sequence) |
+| [3532-path-existence-queries-in-a-graph-i](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3532-path-existence-queries-in-a-graph-i) |
+## Binary Search
+|  |
+| ------- |
+| [3532-path-existence-queries-in-a-graph-i](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3532-path-existence-queries-in-a-graph-i) |
+## Graph Theory
+|  |
+| ------- |
+| [3532-path-existence-queries-in-a-graph-i](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3532-path-existence-queries-in-a-graph-i) |
 <!---LeetCode Topics End-->
