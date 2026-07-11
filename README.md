@@ -44,10 +44,12 @@ https://codeforces.com/blog/entry/45223
 |  |
 | ------- |
 | [1306-jump-game-iii](https://github.com/Harshchafle/LeetCode-Questions/tree/master/1306-jump-game-iii) |
+| [2685-count-the-number-of-complete-components](https://github.com/Harshchafle/LeetCode-Questions/tree/master/2685-count-the-number-of-complete-components) |
 ## Breadth-First Search
 |  |
 | ------- |
 | [1306-jump-game-iii](https://github.com/Harshchafle/LeetCode-Questions/tree/master/1306-jump-game-iii) |
+| [2685-count-the-number-of-complete-components](https://github.com/Harshchafle/LeetCode-Questions/tree/master/2685-count-the-number-of-complete-components) |
 ## Greedy
 |  |
 | ------- |
@@ -115,6 +117,7 @@ https://codeforces.com/blog/entry/45223
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0128-longest-consecutive-sequence) |
+| [2685-count-the-number-of-complete-components](https://github.com/Harshchafle/LeetCode-Questions/tree/master/2685-count-the-number-of-complete-components) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3532-path-existence-queries-in-a-graph-i) |
 ## Binary Search
 |  |
@@ -123,5 +126,6 @@ https://codeforces.com/blog/entry/45223
 ## Graph Theory
 |  |
 | ------- |
+| [2685-count-the-number-of-complete-components](https://github.com/Harshchafle/LeetCode-Questions/tree/master/2685-count-the-number-of-complete-components) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3532-path-existence-queries-in-a-graph-i) |
 <!---LeetCode Topics End-->
