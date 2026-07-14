@@ -1,37 +1,30 @@
 class Solution {
     public int maxProfit(int[] nums) {
+        // 3D-DP(currentDate, HoldingStock, TransactionLeft)
         int n = nums.length;
-        
-        int maxProfit = 0;
-        int prevBuy = (int)1e9;
+        Integer[][][] memo = new Integer[n][2][3];
+        return helper(0, nums, 0, 2, memo); 
+    }
 
-        int leftToRight[] = new int[n];
-        for(int i = 0; i < n; i++){
-            maxProfit = Math.max(maxProfit, nums[i] - prevBuy);
-            if(nums[i] < prevBuy){
-                prevBuy = nums[i];
-            }
-            leftToRight[i] = maxProfit;
+    public int helper(int i, int[] nums, int hold, int txLeft, Integer[][][] memo){
+        if(i == nums.length || txLeft == 0){
+            return 0;
         }
 
-        maxProfit = 0;
-        prevBuy = -(int)1e9;
-        int rightToLeft[] = new int[n];
-        for(int i = n-1; i >= 0; i--){
-            maxProfit = Math.max(maxProfit, prevBuy - nums[i]);
-            if(nums[i] > prevBuy){
-                prevBuy = nums[i];
-            }
-            rightToLeft[i] = maxProfit;
+        if(memo[i][hold][txLeft] != null) return memo[i][hold][txLeft];
+
+        int profit = 0;
+        if(hold == 1){
+            int p1 = nums[i] + helper(i+1, nums, 0, txLeft-1, memo);
+            int p2 = helper(i+1, nums, 1, txLeft, memo);
+            profit = Math.max(p1, p2);
+        }
+        else {
+            int p1 = helper(i+1, nums, 1, txLeft, memo) - nums[i];
+            int p2 = helper(i+1, nums, 0, txLeft, memo);
+            profit = Math.max(p1, p2);
         }
 
-        // System.out.println(Arrays.toString(leftToRight));
-        // System.out.println(Arrays.toString(rightToLeft));
-
-        maxProfit = 0;
-        for(int i = 0; i < n; i++){
-            maxProfit = Math.max(leftToRight[i]+rightToLeft[i], maxProfit);
-        }
-        return maxProfit;
+        return memo[i][hold][txLeft] = profit;
     }
 }
