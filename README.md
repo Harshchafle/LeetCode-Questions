@@ -47,6 +47,7 @@ https://codeforces.com/blog/entry/45223
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3532-path-existence-queries-in-a-graph-i) |
 | [3838-weighted-word-mapping](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3838-weighted-word-mapping) |
+| [3867-sum-of-gcd-of-formed-pairs](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3867-sum-of-gcd-of-formed-pairs) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -68,6 +69,7 @@ https://codeforces.com/blog/entry/45223
 | [1288-remove-covered-intervals](https://github.com/Harshchafle/LeetCode-Questions/tree/master/1288-remove-covered-intervals) |
 | [1331-rank-transform-of-an-array](https://github.com/Harshchafle/LeetCode-Questions/tree/master/1331-rank-transform-of-an-array) |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/Harshchafle/LeetCode-Questions/tree/master/2144-minimum-cost-of-buying-candies-with-discount) |
+| [3867-sum-of-gcd-of-formed-pairs](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3867-sum-of-gcd-of-formed-pairs) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -82,6 +84,7 @@ https://codeforces.com/blog/entry/45223
 | [3658-gcd-of-odd-and-even-sums](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3658-gcd-of-odd-and-even-sums) |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3751-total-waviness-of-numbers-in-range-i) |
 | [3754-concatenate-non-zero-digits-and-multiply-by-sum-i](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3754-concatenate-non-zero-digits-and-multiply-by-sum-i) |
+| [3867-sum-of-gcd-of-formed-pairs](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3867-sum-of-gcd-of-formed-pairs) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -101,11 +104,13 @@ https://codeforces.com/blog/entry/45223
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/Harshchafle/LeetCode-Questions/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/Harshchafle/LeetCode-Questions/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 | [2161-partition-array-according-to-given-pivot](https://github.com/Harshchafle/LeetCode-Questions/tree/master/2161-partition-array-according-to-given-pivot) |
+| [3867-sum-of-gcd-of-formed-pairs](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3867-sum-of-gcd-of-formed-pairs) |
 ## Simulation
 |  |
 | ------- |
 | [2161-partition-array-according-to-given-pivot](https://github.com/Harshchafle/LeetCode-Questions/tree/master/2161-partition-array-according-to-given-pivot) |
 | [3838-weighted-word-mapping](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3838-weighted-word-mapping) |
+| [3867-sum-of-gcd-of-formed-pairs](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3867-sum-of-gcd-of-formed-pairs) |
 ## String
 |  |
 | ------- |
@@ -156,4 +161,5 @@ https://codeforces.com/blog/entry/45223
 | ------- |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3658-gcd-of-odd-and-even-sums](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3658-gcd-of-odd-and-even-sums) |
+| [3867-sum-of-gcd-of-formed-pairs](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3867-sum-of-gcd-of-formed-pairs) |
 <!---LeetCode Topics End-->
