@@ -44,6 +44,7 @@ https://codeforces.com/blog/entry/45223
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/Harshchafle/LeetCode-Questions/tree/master/2144-minimum-cost-of-buying-candies-with-discount) |
 | [2161-partition-array-according-to-given-pivot](https://github.com/Harshchafle/LeetCode-Questions/tree/master/2161-partition-array-according-to-given-pivot) |
 | [2574-left-and-right-sum-differences](https://github.com/Harshchafle/LeetCode-Questions/tree/master/2574-left-and-right-sum-differences) |
+| [3312-sorted-gcd-pair-queries](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3312-sorted-gcd-pair-queries) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3532-path-existence-queries-in-a-graph-i) |
 | [3838-weighted-word-mapping](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3838-weighted-word-mapping) |
@@ -75,11 +76,13 @@ https://codeforces.com/blog/entry/45223
 | ------- |
 | [1732-find-the-highest-altitude](https://github.com/Harshchafle/LeetCode-Questions/tree/master/1732-find-the-highest-altitude) |
 | [2574-left-and-right-sum-differences](https://github.com/Harshchafle/LeetCode-Questions/tree/master/2574-left-and-right-sum-differences) |
+| [3312-sorted-gcd-pair-queries](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3312-sorted-gcd-pair-queries) |
 ## Math
 |  |
 | ------- |
 | [0149-max-points-on-a-line](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0149-max-points-on-a-line) |
 | [1344-angle-between-hands-of-a-clock](https://github.com/Harshchafle/LeetCode-Questions/tree/master/1344-angle-between-hands-of-a-clock) |
+| [3312-sorted-gcd-pair-queries](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3312-sorted-gcd-pair-queries) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3658-gcd-of-odd-and-even-sums](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3658-gcd-of-odd-and-even-sums) |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3751-total-waviness-of-numbers-in-range-i) |
@@ -134,6 +137,7 @@ https://codeforces.com/blog/entry/45223
 | [0149-max-points-on-a-line](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0149-max-points-on-a-line) |
 | [1331-rank-transform-of-an-array](https://github.com/Harshchafle/LeetCode-Questions/tree/master/1331-rank-transform-of-an-array) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Harshchafle/LeetCode-Questions/tree/master/1358-number-of-substrings-containing-all-three-characters) |
+| [3312-sorted-gcd-pair-queries](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3312-sorted-gcd-pair-queries) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3532-path-existence-queries-in-a-graph-i) |
 ## Sliding Window
 |  |
@@ -149,6 +153,7 @@ https://codeforces.com/blog/entry/45223
 ## Binary Search
 |  |
 | ------- |
+| [3312-sorted-gcd-pair-queries](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3312-sorted-gcd-pair-queries) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3532-path-existence-queries-in-a-graph-i) |
 ## Graph Theory
 |  |
@@ -162,7 +167,16 @@ https://codeforces.com/blog/entry/45223
 ## Number Theory
 |  |
 | ------- |
+| [3312-sorted-gcd-pair-queries](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3312-sorted-gcd-pair-queries) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3658-gcd-of-odd-and-even-sums](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3658-gcd-of-odd-and-even-sums) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3867-sum-of-gcd-of-formed-pairs) |
+## Combinatorics
+|  |
+| ------- |
+| [3312-sorted-gcd-pair-queries](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3312-sorted-gcd-pair-queries) |
+## Counting
+|  |
+| ------- |
+| [3312-sorted-gcd-pair-queries](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3312-sorted-gcd-pair-queries) |
 <!---LeetCode Topics End-->
