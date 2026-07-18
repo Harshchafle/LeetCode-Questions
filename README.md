@@ -44,6 +44,7 @@ https://codeforces.com/blog/entry/45223
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/Harshchafle/LeetCode-Questions/tree/master/2144-minimum-cost-of-buying-candies-with-discount) |
 | [2161-partition-array-according-to-given-pivot](https://github.com/Harshchafle/LeetCode-Questions/tree/master/2161-partition-array-according-to-given-pivot) |
 | [2447-number-of-subarrays-with-gcd-equal-to-k](https://github.com/Harshchafle/LeetCode-Questions/tree/master/2447-number-of-subarrays-with-gcd-equal-to-k) |
+| [2470-number-of-subarrays-with-lcm-equal-to-k](https://github.com/Harshchafle/LeetCode-Questions/tree/master/2470-number-of-subarrays-with-lcm-equal-to-k) |
 | [2574-left-and-right-sum-differences](https://github.com/Harshchafle/LeetCode-Questions/tree/master/2574-left-and-right-sum-differences) |
 | [3312-sorted-gcd-pair-queries](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3312-sorted-gcd-pair-queries) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
@@ -84,6 +85,7 @@ https://codeforces.com/blog/entry/45223
 | [0149-max-points-on-a-line](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0149-max-points-on-a-line) |
 | [1344-angle-between-hands-of-a-clock](https://github.com/Harshchafle/LeetCode-Questions/tree/master/1344-angle-between-hands-of-a-clock) |
 | [2447-number-of-subarrays-with-gcd-equal-to-k](https://github.com/Harshchafle/LeetCode-Questions/tree/master/2447-number-of-subarrays-with-gcd-equal-to-k) |
+| [2470-number-of-subarrays-with-lcm-equal-to-k](https://github.com/Harshchafle/LeetCode-Questions/tree/master/2470-number-of-subarrays-with-lcm-equal-to-k) |
 | [3312-sorted-gcd-pair-queries](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3312-sorted-gcd-pair-queries) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3658-gcd-of-odd-and-even-sums](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3658-gcd-of-odd-and-even-sums) |
@@ -170,6 +172,7 @@ https://codeforces.com/blog/entry/45223
 |  |
 | ------- |
 | [2447-number-of-subarrays-with-gcd-equal-to-k](https://github.com/Harshchafle/LeetCode-Questions/tree/master/2447-number-of-subarrays-with-gcd-equal-to-k) |
+| [2470-number-of-subarrays-with-lcm-equal-to-k](https://github.com/Harshchafle/LeetCode-Questions/tree/master/2470-number-of-subarrays-with-lcm-equal-to-k) |
 | [3312-sorted-gcd-pair-queries](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3312-sorted-gcd-pair-queries) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3658-gcd-of-odd-and-even-sums](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3658-gcd-of-odd-and-even-sums) |
