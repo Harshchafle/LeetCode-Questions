@@ -54,11 +54,13 @@ https://codeforces.com/blog/entry/45223
 ## Depth-First Search
 |  |
 | ------- |
+| [0133-clone-graph](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0133-clone-graph) |
 | [1306-jump-game-iii](https://github.com/Harshchafle/LeetCode-Questions/tree/master/1306-jump-game-iii) |
 | [2685-count-the-number-of-complete-components](https://github.com/Harshchafle/LeetCode-Questions/tree/master/2685-count-the-number-of-complete-components) |
 ## Breadth-First Search
 |  |
 | ------- |
+| [0133-clone-graph](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0133-clone-graph) |
 | [1306-jump-game-iii](https://github.com/Harshchafle/LeetCode-Questions/tree/master/1306-jump-game-iii) |
 | [2685-count-the-number-of-complete-components](https://github.com/Harshchafle/LeetCode-Questions/tree/master/2685-count-the-number-of-complete-components) |
 ## Greedy
@@ -141,6 +143,7 @@ https://codeforces.com/blog/entry/45223
 | ------- |
 | [0030-substring-with-concatenation-of-all-words](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0030-substring-with-concatenation-of-all-words) |
 | [0128-longest-consecutive-sequence](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0128-longest-consecutive-sequence) |
+| [0133-clone-graph](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0133-clone-graph) |
 | [0149-max-points-on-a-line](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0149-max-points-on-a-line) |
 | [1331-rank-transform-of-an-array](https://github.com/Harshchafle/LeetCode-Questions/tree/master/1331-rank-transform-of-an-array) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Harshchafle/LeetCode-Questions/tree/master/1358-number-of-substrings-containing-all-three-characters) |
@@ -165,6 +168,7 @@ https://codeforces.com/blog/entry/45223
 ## Graph Theory
 |  |
 | ------- |
+| [0133-clone-graph](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0133-clone-graph) |
 | [2685-count-the-number-of-complete-components](https://github.com/Harshchafle/LeetCode-Questions/tree/master/2685-count-the-number-of-complete-components) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3532-path-existence-queries-in-a-graph-i) |
 ## Geometry
