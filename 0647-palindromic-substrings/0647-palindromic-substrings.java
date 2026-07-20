@@ -1,13 +1,32 @@
 class Solution {
     public int countSubstrings(String s) {
         int n = s.length();
+        boolean dp[][] = new boolean[n][n];
         int count = 0;
-        for(int i = 0; i < n; i++) {
-            for(int j = i; j < n; j++) {
-                String substr = s.substring(i, j+1);
-                if(isPali(substr)) count++;
+        for(int k = 0; k < n; k++) {
+            int i = 0, j = k;
+            while(j < n) {
+                if(i == j) {
+                    dp[i][j] = true;
+                    count++;
+                }
+                else if(j == i+1) {
+                    if(s.charAt(i) == s.charAt(j)) {
+                        dp[i][j] = true;
+                        count++;
+                    }
+                }
+                else{
+                    if(s.charAt(i) == s.charAt(j) && dp[i+1][j-1]){
+                        dp[i][j] = true;
+                        count++;
+                    }
+                }
+                i++;
+                j++;
             }
         }
+
         return count;
     }
 
