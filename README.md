@@ -106,6 +106,7 @@ https://codeforces.com/blog/entry/45223
 |  |
 | ------- |
 | [1291-sequential-digits](https://github.com/Harshchafle/LeetCode-Questions/tree/master/1291-sequential-digits) |
+| [3499-maximize-active-section-with-trade-i](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3499-maximize-active-section-with-trade-i) |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3751-total-waviness-of-numbers-in-range-i) |
 ## Two Pointers
 |  |
@@ -128,6 +129,7 @@ https://codeforces.com/blog/entry/45223
 | [0030-substring-with-concatenation-of-all-words](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0030-substring-with-concatenation-of-all-words) |
 | [0647-palindromic-substrings](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0647-palindromic-substrings) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Harshchafle/LeetCode-Questions/tree/master/1358-number-of-substrings-containing-all-three-characters) |
+| [3499-maximize-active-section-with-trade-i](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3499-maximize-active-section-with-trade-i) |
 | [3838-weighted-word-mapping](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3838-weighted-word-mapping) |
 ## Linked List
 |  |
