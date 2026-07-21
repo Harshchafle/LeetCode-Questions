@@ -37,6 +37,7 @@ https://codeforces.com/blog/entry/45223
 | [0135-candy](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0135-candy) |
 | [0149-max-points-on-a-line](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0149-max-points-on-a-line) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
+| [0399-evaluate-division](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0399-evaluate-division) |
 | [1288-remove-covered-intervals](https://github.com/Harshchafle/LeetCode-Questions/tree/master/1288-remove-covered-intervals) |
 | [1306-jump-game-iii](https://github.com/Harshchafle/LeetCode-Questions/tree/master/1306-jump-game-iii) |
 | [1331-rank-transform-of-an-array](https://github.com/Harshchafle/LeetCode-Questions/tree/master/1331-rank-transform-of-an-array) |
@@ -55,12 +56,14 @@ https://codeforces.com/blog/entry/45223
 |  |
 | ------- |
 | [0133-clone-graph](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0133-clone-graph) |
+| [0399-evaluate-division](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0399-evaluate-division) |
 | [1306-jump-game-iii](https://github.com/Harshchafle/LeetCode-Questions/tree/master/1306-jump-game-iii) |
 | [2685-count-the-number-of-complete-components](https://github.com/Harshchafle/LeetCode-Questions/tree/master/2685-count-the-number-of-complete-components) |
 ## Breadth-First Search
 |  |
 | ------- |
 | [0133-clone-graph](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0133-clone-graph) |
+| [0399-evaluate-division](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0399-evaluate-division) |
 | [1306-jump-game-iii](https://github.com/Harshchafle/LeetCode-Questions/tree/master/1306-jump-game-iii) |
 | [2685-count-the-number-of-complete-components](https://github.com/Harshchafle/LeetCode-Questions/tree/master/2685-count-the-number-of-complete-components) |
 ## Greedy
@@ -127,6 +130,7 @@ https://codeforces.com/blog/entry/45223
 |  |
 | ------- |
 | [0030-substring-with-concatenation-of-all-words](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0030-substring-with-concatenation-of-all-words) |
+| [0399-evaluate-division](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0399-evaluate-division) |
 | [0647-palindromic-substrings](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0647-palindromic-substrings) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Harshchafle/LeetCode-Questions/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [3499-maximize-active-section-with-trade-i](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3499-maximize-active-section-with-trade-i) |
@@ -160,6 +164,7 @@ https://codeforces.com/blog/entry/45223
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0128-longest-consecutive-sequence) |
+| [0399-evaluate-division](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0399-evaluate-division) |
 | [2685-count-the-number-of-complete-components](https://github.com/Harshchafle/LeetCode-Questions/tree/master/2685-count-the-number-of-complete-components) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3532-path-existence-queries-in-a-graph-i) |
 ## Binary Search
@@ -171,6 +176,7 @@ https://codeforces.com/blog/entry/45223
 |  |
 | ------- |
 | [0133-clone-graph](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0133-clone-graph) |
+| [0399-evaluate-division](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0399-evaluate-division) |
 | [2685-count-the-number-of-complete-components](https://github.com/Harshchafle/LeetCode-Questions/tree/master/2685-count-the-number-of-complete-components) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3532-path-existence-queries-in-a-graph-i) |
 ## Geometry
@@ -194,4 +200,8 @@ https://codeforces.com/blog/entry/45223
 |  |
 | ------- |
 | [3312-sorted-gcd-pair-queries](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3312-sorted-gcd-pair-queries) |
+## Shortest Path
+|  |
+| ------- |
+| [0399-evaluate-division](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0399-evaluate-division) |
 <!---LeetCode Topics End-->
