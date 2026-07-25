@@ -139,6 +139,7 @@ https://codeforces.com/blog/entry/45223
 |  |
 | ------- |
 | [0030-substring-with-concatenation-of-all-words](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0030-substring-with-concatenation-of-all-words) |
+| [0071-simplify-path](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0071-simplify-path) |
 | [0131-palindrome-partitioning](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0131-palindrome-partitioning) |
 | [0132-palindrome-partitioning-ii](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0132-palindrome-partitioning-ii) |
 | [0399-evaluate-division](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0399-evaluate-division) |
@@ -154,6 +155,7 @@ https://codeforces.com/blog/entry/45223
 ## Stack
 |  |
 | ------- |
+| [0071-simplify-path](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0071-simplify-path) |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/Harshchafle/LeetCode-Questions/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 ## Hash Table
 |  |
