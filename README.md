@@ -37,6 +37,7 @@ https://codeforces.com/blog/entry/45223
 | [0135-candy](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0135-candy) |
 | [0149-max-points-on-a-line](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0149-max-points-on-a-line) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
+| [0380-insert-delete-getrandom-o1](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0380-insert-delete-getrandom-o1) |
 | [0399-evaluate-division](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0399-evaluate-division) |
 | [0525-contiguous-array](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0525-contiguous-array) |
 | [1288-remove-covered-intervals](https://github.com/Harshchafle/LeetCode-Questions/tree/master/1288-remove-covered-intervals) |
@@ -96,6 +97,7 @@ https://codeforces.com/blog/entry/45223
 |  |
 | ------- |
 | [0149-max-points-on-a-line](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0149-max-points-on-a-line) |
+| [0380-insert-delete-getrandom-o1](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0380-insert-delete-getrandom-o1) |
 | [1344-angle-between-hands-of-a-clock](https://github.com/Harshchafle/LeetCode-Questions/tree/master/1344-angle-between-hands-of-a-clock) |
 | [2447-number-of-subarrays-with-gcd-equal-to-k](https://github.com/Harshchafle/LeetCode-Questions/tree/master/2447-number-of-subarrays-with-gcd-equal-to-k) |
 | [2470-number-of-subarrays-with-lcm-equal-to-k](https://github.com/Harshchafle/LeetCode-Questions/tree/master/2470-number-of-subarrays-with-lcm-equal-to-k) |
@@ -168,6 +170,7 @@ https://codeforces.com/blog/entry/45223
 | [0128-longest-consecutive-sequence](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0128-longest-consecutive-sequence) |
 | [0133-clone-graph](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0133-clone-graph) |
 | [0149-max-points-on-a-line](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0149-max-points-on-a-line) |
+| [0380-insert-delete-getrandom-o1](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0380-insert-delete-getrandom-o1) |
 | [0525-contiguous-array](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0525-contiguous-array) |
 | [1331-rank-transform-of-an-array](https://github.com/Harshchafle/LeetCode-Questions/tree/master/1331-rank-transform-of-an-array) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Harshchafle/LeetCode-Questions/tree/master/1358-number-of-substrings-containing-all-three-characters) |
@@ -243,4 +246,12 @@ https://codeforces.com/blog/entry/45223
 |  |
 | ------- |
 | [3517-smallest-palindromic-rearrangement-i](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3517-smallest-palindromic-rearrangement-i) |
+## Design
+|  |
+| ------- |
+| [0380-insert-delete-getrandom-o1](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0380-insert-delete-getrandom-o1) |
+## Randomized
+|  |
+| ------- |
+| [0380-insert-delete-getrandom-o1](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0380-insert-delete-getrandom-o1) |
 <!---LeetCode Topics End-->
