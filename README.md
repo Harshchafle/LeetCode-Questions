@@ -40,6 +40,7 @@ https://codeforces.com/blog/entry/45223
 | [0380-insert-delete-getrandom-o1](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0380-insert-delete-getrandom-o1) |
 | [0399-evaluate-division](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0399-evaluate-division) |
 | [0525-contiguous-array](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0525-contiguous-array) |
+| [0877-stone-game](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0877-stone-game) |
 | [1288-remove-covered-intervals](https://github.com/Harshchafle/LeetCode-Questions/tree/master/1288-remove-covered-intervals) |
 | [1306-jump-game-iii](https://github.com/Harshchafle/LeetCode-Questions/tree/master/1306-jump-game-iii) |
 | [1331-rank-transform-of-an-array](https://github.com/Harshchafle/LeetCode-Questions/tree/master/1331-rank-transform-of-an-array) |
@@ -100,6 +101,7 @@ https://codeforces.com/blog/entry/45223
 | ------- |
 | [0149-max-points-on-a-line](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0149-max-points-on-a-line) |
 | [0380-insert-delete-getrandom-o1](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0380-insert-delete-getrandom-o1) |
+| [0877-stone-game](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0877-stone-game) |
 | [1344-angle-between-hands-of-a-clock](https://github.com/Harshchafle/LeetCode-Questions/tree/master/1344-angle-between-hands-of-a-clock) |
 | [2447-number-of-subarrays-with-gcd-equal-to-k](https://github.com/Harshchafle/LeetCode-Questions/tree/master/2447-number-of-subarrays-with-gcd-equal-to-k) |
 | [2470-number-of-subarrays-with-lcm-equal-to-k](https://github.com/Harshchafle/LeetCode-Questions/tree/master/2470-number-of-subarrays-with-lcm-equal-to-k) |
@@ -118,6 +120,7 @@ https://codeforces.com/blog/entry/45223
 | [0132-palindrome-partitioning-ii](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0132-palindrome-partitioning-ii) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
 | [0647-palindromic-substrings](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0647-palindromic-substrings) |
+| [0877-stone-game](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0877-stone-game) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3751-total-waviness-of-numbers-in-range-i) |
 ## Enumeration
@@ -259,4 +262,8 @@ https://codeforces.com/blog/entry/45223
 |  |
 | ------- |
 | [0380-insert-delete-getrandom-o1](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0380-insert-delete-getrandom-o1) |
+## Game Theory
+|  |
+| ------- |
+| [0877-stone-game](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0877-stone-game) |
 <!---LeetCode Topics End-->
