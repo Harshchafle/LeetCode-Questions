@@ -110,6 +110,7 @@ https://codeforces.com/blog/entry/45223
 | [2470-number-of-subarrays-with-lcm-equal-to-k](https://github.com/Harshchafle/LeetCode-Questions/tree/master/2470-number-of-subarrays-with-lcm-equal-to-k) |
 | [3312-sorted-gcd-pair-queries](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3312-sorted-gcd-pair-queries) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
+| [3345-smallest-divisible-digit-product-i](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3345-smallest-divisible-digit-product-i) |
 | [3514-number-of-unique-xor-triplets-ii](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3514-number-of-unique-xor-triplets-ii) |
 | [3658-gcd-of-odd-and-even-sums](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3658-gcd-of-odd-and-even-sums) |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3751-total-waviness-of-numbers-in-range-i) |
@@ -130,6 +131,7 @@ https://codeforces.com/blog/entry/45223
 |  |
 | ------- |
 | [1291-sequential-digits](https://github.com/Harshchafle/LeetCode-Questions/tree/master/1291-sequential-digits) |
+| [3345-smallest-divisible-digit-product-i](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3345-smallest-divisible-digit-product-i) |
 | [3499-maximize-active-section-with-trade-i](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3499-maximize-active-section-with-trade-i) |
 | [3514-number-of-unique-xor-triplets-ii](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3514-number-of-unique-xor-triplets-ii) |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3751-total-waviness-of-numbers-in-range-i) |
