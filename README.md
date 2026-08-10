@@ -46,6 +46,7 @@ https://codeforces.com/blog/entry/45223
 | [1331-rank-transform-of-an-array](https://github.com/Harshchafle/LeetCode-Questions/tree/master/1331-rank-transform-of-an-array) |
 | [1406-stone-game-iii](https://github.com/Harshchafle/LeetCode-Questions/tree/master/1406-stone-game-iii) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/Harshchafle/LeetCode-Questions/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
+| [1686-stone-game-vi](https://github.com/Harshchafle/LeetCode-Questions/tree/master/1686-stone-game-vi) |
 | [1732-find-the-highest-altitude](https://github.com/Harshchafle/LeetCode-Questions/tree/master/1732-find-the-highest-altitude) |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/Harshchafle/LeetCode-Questions/tree/master/2144-minimum-cost-of-buying-candies-with-discount) |
 | [2161-partition-array-according-to-given-pivot](https://github.com/Harshchafle/LeetCode-Questions/tree/master/2161-partition-array-according-to-given-pivot) |
@@ -81,6 +82,7 @@ https://codeforces.com/blog/entry/45223
 |  |
 | ------- |
 | [0135-candy](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0135-candy) |
+| [1686-stone-game-vi](https://github.com/Harshchafle/LeetCode-Questions/tree/master/1686-stone-game-vi) |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/Harshchafle/LeetCode-Questions/tree/master/2144-minimum-cost-of-buying-candies-with-discount) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
 ## Sorting
@@ -89,6 +91,7 @@ https://codeforces.com/blog/entry/45223
 | [1288-remove-covered-intervals](https://github.com/Harshchafle/LeetCode-Questions/tree/master/1288-remove-covered-intervals) |
 | [1331-rank-transform-of-an-array](https://github.com/Harshchafle/LeetCode-Questions/tree/master/1331-rank-transform-of-an-array) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/Harshchafle/LeetCode-Questions/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
+| [1686-stone-game-vi](https://github.com/Harshchafle/LeetCode-Questions/tree/master/1686-stone-game-vi) |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/Harshchafle/LeetCode-Questions/tree/master/2144-minimum-cost-of-buying-candies-with-discount) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
 | [3517-smallest-palindromic-rearrangement-i](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3517-smallest-palindromic-rearrangement-i) |
@@ -108,6 +111,7 @@ https://codeforces.com/blog/entry/45223
 | [0877-stone-game](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0877-stone-game) |
 | [1344-angle-between-hands-of-a-clock](https://github.com/Harshchafle/LeetCode-Questions/tree/master/1344-angle-between-hands-of-a-clock) |
 | [1406-stone-game-iii](https://github.com/Harshchafle/LeetCode-Questions/tree/master/1406-stone-game-iii) |
+| [1686-stone-game-vi](https://github.com/Harshchafle/LeetCode-Questions/tree/master/1686-stone-game-vi) |
 | [2447-number-of-subarrays-with-gcd-equal-to-k](https://github.com/Harshchafle/LeetCode-Questions/tree/master/2447-number-of-subarrays-with-gcd-equal-to-k) |
 | [2470-number-of-subarrays-with-lcm-equal-to-k](https://github.com/Harshchafle/LeetCode-Questions/tree/master/2470-number-of-subarrays-with-lcm-equal-to-k) |
 | [3312-sorted-gcd-pair-queries](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3312-sorted-gcd-pair-queries) |
@@ -260,6 +264,7 @@ https://codeforces.com/blog/entry/45223
 |  |
 | ------- |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/Harshchafle/LeetCode-Questions/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
+| [1686-stone-game-vi](https://github.com/Harshchafle/LeetCode-Questions/tree/master/1686-stone-game-vi) |
 ## Counting Sort
 |  |
 | ------- |
@@ -277,6 +282,7 @@ https://codeforces.com/blog/entry/45223
 | ------- |
 | [0877-stone-game](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0877-stone-game) |
 | [1406-stone-game-iii](https://github.com/Harshchafle/LeetCode-Questions/tree/master/1406-stone-game-iii) |
+| [1686-stone-game-vi](https://github.com/Harshchafle/LeetCode-Questions/tree/master/1686-stone-game-vi) |
 ## Matrix
 |  |
 | ------- |
@@ -285,8 +291,10 @@ https://codeforces.com/blog/entry/45223
 |  |
 | ------- |
 | [1406-stone-game-iii](https://github.com/Harshchafle/LeetCode-Questions/tree/master/1406-stone-game-iii) |
+| [1686-stone-game-vi](https://github.com/Harshchafle/LeetCode-Questions/tree/master/1686-stone-game-vi) |
 ## Zero-Sum Game
 |  |
 | ------- |
 | [1406-stone-game-iii](https://github.com/Harshchafle/LeetCode-Questions/tree/master/1406-stone-game-iii) |
+| [1686-stone-game-vi](https://github.com/Harshchafle/LeetCode-Questions/tree/master/1686-stone-game-vi) |
 <!---LeetCode Topics End-->
