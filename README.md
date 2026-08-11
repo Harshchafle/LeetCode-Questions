@@ -32,6 +32,7 @@ https://codeforces.com/blog/entry/45223
 |  |
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0040-combination-sum-ii](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0040-combination-sum-ii) |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
 | [0128-longest-consecutive-sequence](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0128-longest-consecutive-sequence) |
 | [0135-candy](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0135-candy) |
@@ -259,6 +260,7 @@ https://codeforces.com/blog/entry/45223
 ## Backtracking
 |  |
 | ------- |
+| [0040-combination-sum-ii](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0040-combination-sum-ii) |
 | [0131-palindrome-partitioning](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0131-palindrome-partitioning) |
 ## Heap (Priority Queue)
 |  |
