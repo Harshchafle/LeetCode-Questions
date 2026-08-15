@@ -59,6 +59,7 @@ https://codeforces.com/blog/entry/45223
 | [3514-number-of-unique-xor-triplets-ii](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3514-number-of-unique-xor-triplets-ii) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3532-path-existence-queries-in-a-graph-i) |
 | [3643-flip-square-submatrix-vertically](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3643-flip-square-submatrix-vertically) |
+| [3702-longest-subsequence-with-non-zero-bitwise-xor](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3702-longest-subsequence-with-non-zero-bitwise-xor) |
 | [3838-weighted-word-mapping](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3838-weighted-word-mapping) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3867-sum-of-gcd-of-formed-pairs) |
 ## Depth-First Search
@@ -260,6 +261,7 @@ https://codeforces.com/blog/entry/45223
 |  |
 | ------- |
 | [3514-number-of-unique-xor-triplets-ii](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3514-number-of-unique-xor-triplets-ii) |
+| [3702-longest-subsequence-with-non-zero-bitwise-xor](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3702-longest-subsequence-with-non-zero-bitwise-xor) |
 ## Backtracking
 |  |
 | ------- |
