@@ -23,6 +23,8 @@ class Solution {
                         ans = Math.max(ans, dp[i][k] + leftSum);
                     }
 
+                    if(2*Math.min(leftSum, rightSum) <= ans) break;
+
                 }
                 dp[i][j] = ans;
             }
