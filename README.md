@@ -40,6 +40,7 @@ https://codeforces.com/blog/entry/45223
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
 | [0380-insert-delete-getrandom-o1](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0380-insert-delete-getrandom-o1) |
 | [0399-evaluate-division](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0399-evaluate-division) |
+| [0496-next-greater-element-i](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0496-next-greater-element-i) |
 | [0525-contiguous-array](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0525-contiguous-array) |
 | [0877-stone-game](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0877-stone-game) |
 | [1288-remove-covered-intervals](https://github.com/Harshchafle/LeetCode-Questions/tree/master/1288-remove-covered-intervals) |
@@ -190,6 +191,7 @@ https://codeforces.com/blog/entry/45223
 |  |
 | ------- |
 | [0071-simplify-path](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0071-simplify-path) |
+| [0496-next-greater-element-i](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0496-next-greater-element-i) |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/Harshchafle/LeetCode-Questions/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 ## Hash Table
 |  |
@@ -199,6 +201,7 @@ https://codeforces.com/blog/entry/45223
 | [0133-clone-graph](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0133-clone-graph) |
 | [0149-max-points-on-a-line](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0149-max-points-on-a-line) |
 | [0380-insert-delete-getrandom-o1](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0380-insert-delete-getrandom-o1) |
+| [0496-next-greater-element-i](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0496-next-greater-element-i) |
 | [0525-contiguous-array](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0525-contiguous-array) |
 | [1331-rank-transform-of-an-array](https://github.com/Harshchafle/LeetCode-Questions/tree/master/1331-rank-transform-of-an-array) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Harshchafle/LeetCode-Questions/tree/master/1358-number-of-substrings-containing-all-three-characters) |
@@ -313,4 +316,8 @@ https://codeforces.com/blog/entry/45223
 | ------- |
 | [1406-stone-game-iii](https://github.com/Harshchafle/LeetCode-Questions/tree/master/1406-stone-game-iii) |
 | [1686-stone-game-vi](https://github.com/Harshchafle/LeetCode-Questions/tree/master/1686-stone-game-vi) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0496-next-greater-element-i](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0496-next-greater-element-i) |
 <!---LeetCode Topics End-->
