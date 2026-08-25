@@ -63,6 +63,7 @@ https://codeforces.com/blog/entry/45223
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3532-path-existence-queries-in-a-graph-i) |
 | [3643-flip-square-submatrix-vertically](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3643-flip-square-submatrix-vertically) |
 | [3702-longest-subsequence-with-non-zero-bitwise-xor](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3702-longest-subsequence-with-non-zero-bitwise-xor) |
+| [3718-smallest-missing-multiple-of-k](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3718-smallest-missing-multiple-of-k) |
 | [3838-weighted-word-mapping](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3838-weighted-word-mapping) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3867-sum-of-gcd-of-formed-pairs) |
 ## Depth-First Search
@@ -211,6 +212,7 @@ https://codeforces.com/blog/entry/45223
 | [3312-sorted-gcd-pair-queries](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3312-sorted-gcd-pair-queries) |
 | [3471-find-the-largest-almost-missing-integer](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3471-find-the-largest-almost-missing-integer) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3532-path-existence-queries-in-a-graph-i) |
+| [3718-smallest-missing-multiple-of-k](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3718-smallest-missing-multiple-of-k) |
 ## Sliding Window
 |  |
 | ------- |
