@@ -32,6 +32,7 @@ https://codeforces.com/blog/entry/45223
 |  |
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0031-next-permutation](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0031-next-permutation) |
 | [0040-combination-sum-ii](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0040-combination-sum-ii) |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
 | [0128-longest-consecutive-sequence](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0128-longest-consecutive-sequence) |
@@ -157,6 +158,7 @@ https://codeforces.com/blog/entry/45223
 |  |
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0031-next-permutation](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0031-next-permutation) |
 | [0647-palindromic-substrings](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0647-palindromic-substrings) |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/Harshchafle/LeetCode-Questions/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/Harshchafle/LeetCode-Questions/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
