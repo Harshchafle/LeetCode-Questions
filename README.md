@@ -44,6 +44,7 @@ https://codeforces.com/blog/entry/45223
 | [0496-next-greater-element-i](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0496-next-greater-element-i) |
 | [0525-contiguous-array](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0525-contiguous-array) |
 | [0877-stone-game](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0877-stone-game) |
+| [0976-largest-perimeter-triangle](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0976-largest-perimeter-triangle) |
 | [1288-remove-covered-intervals](https://github.com/Harshchafle/LeetCode-Questions/tree/master/1288-remove-covered-intervals) |
 | [1306-jump-game-iii](https://github.com/Harshchafle/LeetCode-Questions/tree/master/1306-jump-game-iii) |
 | [1331-rank-transform-of-an-array](https://github.com/Harshchafle/LeetCode-Questions/tree/master/1331-rank-transform-of-an-array) |
@@ -91,12 +92,14 @@ https://codeforces.com/blog/entry/45223
 | ------- |
 | [0135-candy](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0135-candy) |
 | [0316-remove-duplicate-letters](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0316-remove-duplicate-letters) |
+| [0976-largest-perimeter-triangle](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0976-largest-perimeter-triangle) |
 | [1686-stone-game-vi](https://github.com/Harshchafle/LeetCode-Questions/tree/master/1686-stone-game-vi) |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/Harshchafle/LeetCode-Questions/tree/master/2144-minimum-cost-of-buying-candies-with-discount) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
 ## Sorting
 |  |
 | ------- |
+| [0976-largest-perimeter-triangle](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0976-largest-perimeter-triangle) |
 | [1288-remove-covered-intervals](https://github.com/Harshchafle/LeetCode-Questions/tree/master/1288-remove-covered-intervals) |
 | [1331-rank-transform-of-an-array](https://github.com/Harshchafle/LeetCode-Questions/tree/master/1331-rank-transform-of-an-array) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/Harshchafle/LeetCode-Questions/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
@@ -118,6 +121,7 @@ https://codeforces.com/blog/entry/45223
 | [0149-max-points-on-a-line](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0149-max-points-on-a-line) |
 | [0380-insert-delete-getrandom-o1](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0380-insert-delete-getrandom-o1) |
 | [0877-stone-game](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0877-stone-game) |
+| [0976-largest-perimeter-triangle](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0976-largest-perimeter-triangle) |
 | [1344-angle-between-hands-of-a-clock](https://github.com/Harshchafle/LeetCode-Questions/tree/master/1344-angle-between-hands-of-a-clock) |
 | [1406-stone-game-iii](https://github.com/Harshchafle/LeetCode-Questions/tree/master/1406-stone-game-iii) |
 | [1563-stone-game-v](https://github.com/Harshchafle/LeetCode-Questions/tree/master/1563-stone-game-v) |
@@ -332,4 +336,12 @@ https://codeforces.com/blog/entry/45223
 | ------- |
 | [0316-remove-duplicate-letters](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0316-remove-duplicate-letters) |
 | [0496-next-greater-element-i](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0496-next-greater-element-i) |
+## Quicksort
+|  |
+| ------- |
+| [0976-largest-perimeter-triangle](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0976-largest-perimeter-triangle) |
+## Polygons
+|  |
+| ------- |
+| [0976-largest-perimeter-triangle](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0976-largest-perimeter-triangle) |
 <!---LeetCode Topics End-->
