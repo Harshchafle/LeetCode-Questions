@@ -69,6 +69,7 @@ https://codeforces.com/blog/entry/45223
 | [3741-minimum-distance-between-three-equal-elements-ii](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3741-minimum-distance-between-three-equal-elements-ii) |
 | [3838-weighted-word-mapping](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3838-weighted-word-mapping) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3867-sum-of-gcd-of-formed-pairs) |
+| [3875-construct-uniform-parity-array-i](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3875-construct-uniform-parity-array-i) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -137,6 +138,7 @@ https://codeforces.com/blog/entry/45223
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3751-total-waviness-of-numbers-in-range-i) |
 | [3754-concatenate-non-zero-digits-and-multiply-by-sum-i](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3754-concatenate-non-zero-digits-and-multiply-by-sum-i) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3867-sum-of-gcd-of-formed-pairs) |
+| [3875-construct-uniform-parity-array-i](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3875-construct-uniform-parity-array-i) |
 ## Dynamic Programming
 |  |
 | ------- |
