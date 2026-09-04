@@ -53,6 +53,7 @@ https://codeforces.com/blog/entry/45223
 | [1563-stone-game-v](https://github.com/Harshchafle/LeetCode-Questions/tree/master/1563-stone-game-v) |
 | [1686-stone-game-vi](https://github.com/Harshchafle/LeetCode-Questions/tree/master/1686-stone-game-vi) |
 | [1732-find-the-highest-altitude](https://github.com/Harshchafle/LeetCode-Questions/tree/master/1732-find-the-highest-altitude) |
+| [2091-removing-minimum-and-maximum-from-array](https://github.com/Harshchafle/LeetCode-Questions/tree/master/2091-removing-minimum-and-maximum-from-array) |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/Harshchafle/LeetCode-Questions/tree/master/2144-minimum-cost-of-buying-candies-with-discount) |
 | [2161-partition-array-according-to-given-pivot](https://github.com/Harshchafle/LeetCode-Questions/tree/master/2161-partition-array-according-to-given-pivot) |
 | [2447-number-of-subarrays-with-gcd-equal-to-k](https://github.com/Harshchafle/LeetCode-Questions/tree/master/2447-number-of-subarrays-with-gcd-equal-to-k) |
@@ -97,6 +98,7 @@ https://codeforces.com/blog/entry/45223
 | [0316-remove-duplicate-letters](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0316-remove-duplicate-letters) |
 | [0976-largest-perimeter-triangle](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0976-largest-perimeter-triangle) |
 | [1686-stone-game-vi](https://github.com/Harshchafle/LeetCode-Questions/tree/master/1686-stone-game-vi) |
+| [2091-removing-minimum-and-maximum-from-array](https://github.com/Harshchafle/LeetCode-Questions/tree/master/2091-removing-minimum-and-maximum-from-array) |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/Harshchafle/LeetCode-Questions/tree/master/2144-minimum-cost-of-buying-candies-with-discount) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
 ## Sorting
