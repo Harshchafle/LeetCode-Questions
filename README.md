@@ -43,6 +43,7 @@ https://codeforces.com/blog/entry/45223
 | [0399-evaluate-division](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0399-evaluate-division) |
 | [0496-next-greater-element-i](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0496-next-greater-element-i) |
 | [0525-contiguous-array](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0525-contiguous-array) |
+| [0864-shortest-path-to-get-all-keys](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0864-shortest-path-to-get-all-keys) |
 | [0877-stone-game](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0877-stone-game) |
 | [0976-largest-perimeter-triangle](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0976-largest-perimeter-triangle) |
 | [1288-remove-covered-intervals](https://github.com/Harshchafle/LeetCode-Questions/tree/master/1288-remove-covered-intervals) |
@@ -88,6 +89,7 @@ https://codeforces.com/blog/entry/45223
 | [0133-clone-graph](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0133-clone-graph) |
 | [0207-course-schedule](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0207-course-schedule) |
 | [0399-evaluate-division](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0399-evaluate-division) |
+| [0864-shortest-path-to-get-all-keys](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0864-shortest-path-to-get-all-keys) |
 | [1306-jump-game-iii](https://github.com/Harshchafle/LeetCode-Questions/tree/master/1306-jump-game-iii) |
 | [2685-count-the-number-of-complete-components](https://github.com/Harshchafle/LeetCode-Questions/tree/master/2685-count-the-number-of-complete-components) |
 | [3310-remove-methods-from-project](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3310-remove-methods-from-project) |
@@ -294,6 +296,7 @@ https://codeforces.com/blog/entry/45223
 ## Bit Manipulation
 |  |
 | ------- |
+| [0864-shortest-path-to-get-all-keys](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0864-shortest-path-to-get-all-keys) |
 | [3514-number-of-unique-xor-triplets-ii](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3514-number-of-unique-xor-triplets-ii) |
 | [3702-longest-subsequence-with-non-zero-bitwise-xor](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3702-longest-subsequence-with-non-zero-bitwise-xor) |
 ## Backtracking
@@ -328,6 +331,7 @@ https://codeforces.com/blog/entry/45223
 ## Matrix
 |  |
 | ------- |
+| [0864-shortest-path-to-get-all-keys](https://github.com/Harshchafle/LeetCode-Questions/tree/master/0864-shortest-path-to-get-all-keys) |
 | [3643-flip-square-submatrix-vertically](https://github.com/Harshchafle/LeetCode-Questions/tree/master/3643-flip-square-submatrix-vertically) |
 ## Minimax
 |  |
